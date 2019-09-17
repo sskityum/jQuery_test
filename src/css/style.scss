@@ -1,0 +1,28 @@
+body{
+    ul, li{
+        display: block;
+        padding: 0;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    .square{
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        background-color: blueviolet;
+        transition: all .5s;
+    }
+
+    .square-soft{
+        border-radius: 15px;
+    }
+
+    .btn-color{
+        color: rgb(226, 66, 218);
+        font-weight: bold;
+    }
+}
+
